@@ -1,2 +1,2 @@
 #!/bin/bash
-find -tpye f -name "*.gif" -prinff "%\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+find -tpye f -name "*.gif" -prinf "%\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
